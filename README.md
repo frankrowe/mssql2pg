@@ -2,12 +2,13 @@
 
 Convert create scripts from MSSQL to PostgreSQL.
 
+Loosely follows [Microsoft SQL Server to PostgreSQL Migration by Ian Harding](http://wiki.postgresql.org/wiki/Microsoft_SQL_Server_to_PostgreSQL_Migration_by_Ian_Harding)
+
 ## Getting Started
 Install the module with: `npm install mssql2pg`
 
 ```javascript
-var mssql2pg = require('mssql2pg');
-mssql2pg.awesome(); // "awesome"
+mssql2pg input.sql output.sql
 ```
 
 ## Documentation
@@ -17,7 +18,7 @@ _(Coming soon)_
 _(Coming soon)_
 
 ## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+
 
 ## Release History
 _(Nothing yet)_
