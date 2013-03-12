@@ -4,6 +4,8 @@ This tool will let you take `create table` scripts from Microsoft SQL Server and
 
 Loosely follows [Microsoft SQL Server to PostgreSQL Migration by Ian Harding](http://wiki.postgresql.org/wiki/Microsoft_SQL_Server_to_PostgreSQL_Migration_by_Ian_Harding#Tables)
 
+Currently this won't get you to 100% pg compliant sql, but a lot closer and easier than manually converting everything. The goal is to get closer to 100% as this improves.
+
 ## Getting Started
 Install the module with: `npm install mssql2pg` (not yet in npm registry. clone repo and run npm link for now)
 
